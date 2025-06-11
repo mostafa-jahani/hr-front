@@ -1,11 +1,10 @@
-// components/Header.js
-export default function Header({ title = 'داشبورد' }) {
+'use client'
+
+export default function Header() {
   return (
-    <header className="w-full bg-white shadow px-6 py-4 flex justify-between items-center">
-        <h1 className="text-lg font-bold pr-12 md:pr-0">داشبورد</h1>      <div className="flex items-center gap-4">
-        <span className="text-sm text-gray-600">👤 مدیر سیستم</span>
-        {/* در آینده: آیکون یا دکمه خروج */}
-      </div>
+    <header className="w-full bg-white shadow-sm px-4 py-4 min-h-[64px] flex items-center justify-between md:justify-end relative z-30">
+      <h1 className="text-lg font-semibold md:absolute md:right-20">داشبورد</h1>
+      <div className="text-sm text-gray-600">خوش آمدید 👋</div>
     </header>
   )
 }

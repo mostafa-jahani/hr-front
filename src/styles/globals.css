@@ -1,7 +1,13 @@
+@import url(./fonts.css);
 @import "tailwindcss";
 
 
 html {
   direction: rtl;
   text-align: right;
+  font-family: 'IRANSANS';
+}
+
+body {
+  font-family: 'IRANSANS';
 }
